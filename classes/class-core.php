@@ -5,7 +5,7 @@ if ( count( get_included_files() ) == 1 ){ exit(); }
 /**
  * @about Core - When/Where To load Font Awesome
  * @location classes/my-font-awesome.php
- * @call MyfoNtAwesome_Core::instance();
+ * @call MyFontAwesome_Core::instance();
  * 
  * @method init()       After WP Object Is Ready
  * @method action()     My Font Awesome Shortcode
@@ -16,9 +16,9 @@ if ( count( get_included_files() ) == 1 ){ exit(); }
  * @method enqueue()    Enqueue Font Awesome
  * @method instance()   Create Instance
  */
-if( ! class_exists( 'MyfoNtAwesome_Core' ) )
+if( ! class_exists( 'MyFontAwesome_Core' ) )
 {
-    class MyfoNtAwesome_Core extends MyfoNtAwesome_Extended
+    class MyFontAwesome_Core extends MyFontAwesome_Extended
     {
         // Holds Instance Object
         protected static $instance = NULL;
@@ -54,14 +54,13 @@ if( ! class_exists( 'MyfoNtAwesome_Core' ) )
          */
         final public function shortcode( $atts )
         {
-            extract( shortcode_atts( array( 'icon' => '', 'size' => '', 'class' => '' ), $atts ) );
+            extract( shortcode_atts( array( 'icon' => '', 'class' => '' ), $atts ) );
 
             // Icon Variables
             $icon  = ( ! empty( $icon ) ) ? $icon : 'fa-home';
-            $size  = ( ! empty( $size ) ) ? ' ' . $size : '';
             $class = ( ! empty( $class ) ) ? ' ' . $class : '';
 
-            return '<i class="fa ' . $icon . $size . $class . '" aria-hidden="true"></i>';
+            return '<i class="fa ' . $icon . $class . '" aria-hidden="true"></i>';
         }
 
 
