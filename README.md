@@ -65,17 +65,13 @@ A) The two globals (Website & Admin Area) override all other display features. T
 
 A) The [myfa] shortcode takes 2 attributes.
 
-**name=""** Is required to change the icon, and should includle the fa- prefix:
+**name=""** Is required to change the icon, and should includle the fa- prefix: ``` [myfa name="fa-home"] ```
 
-``` [myfa name="fa-home"] ```
+**View:** [Font Awesome Icons](http://fontawesome.io/icons/)
 
-[Font Awesome Icons](http://fontawesome.io/icons/)
+**class=""** Allows you to use other Font Awesome features, such as size, rotation, fixed with, etc. ``` [myfa name="fa-home" class="fa-2x fa-rotate-90"] ```
 
-**class=""** Allows you to use other Font Awesome features, such as size, rotation, fixed with, etc.
-
-``` [myfa name="fa-home" class="fa-2x fa-rotate-90"] ```
-
-[Font Awesome Examples](http://fontawesome.io/examples/)
+**View:** [Font Awesome Examples](http://fontawesome.io/examples/)
 
 #### Q) If I disable/delete the plugin are the plugin settings deleted?
 
