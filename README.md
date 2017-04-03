@@ -18,25 +18,20 @@ An easy and clean way to add Font Awesome to your theme.
 
 
 ### Features:
-
 * Uses the Font Awesome CND, so no local styles, fonts or updates to worry with.
-
 * Font Awesome Shortcode: [myfa name="fa-home" size="fa-2x" class="fa-rotate-90"]
 * Quick access shortcode button for both the Visual & Text Editor.
 * The shortcode works within: Post/Page/Widget Titles, All Widgets & Navigation Menus.
-
 * Define when and where to load Font Awesome!
 * Global Display: Website & Admin Area Only
 * Content Display: Post Types, Theme Templates & Post/Page/Post Type ID's
 * Homepage Display: Default, Static & Blog
 * User Role Display: Administrator, Editor, Author, Contributor, Subscriber, Customer & Shop Manager
 * Login Status Display: All Logged In Users, Logged In - Website Only, Logged In - Admin Only  & Logged Out Users
-
 * Delete All Settings Option
 
 
-= For Support & Bugs =
-
+** For Support & Bugs **
 Please [contact us directly](http://technerdia.com/help/) if you need assistance or have found a bug. The WordPress Support forum does not notify us of new support tickets, no idea why, so contact us directly. Or, view on [Github!](https://github.com/tribalNerd/my-font-awesome/) and clone/fork yourself a copy, report a bug or submit a ticket & pull request!
 
 
