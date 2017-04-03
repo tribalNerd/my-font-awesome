@@ -1,4 +1,4 @@
-# My Font Awesome #
+# My Font Awesome
 * **Plugin Name:** My Font Awesome
 * **Contributors:** tribalNerd, Chris Winters
 * **Tags:** technerdia, tribalnerd
@@ -11,13 +11,12 @@
 An easy and clean way to add Font Awesome to your theme.
 
 
-:: Description
---------
+## Description
 
 An easy and clean way to add Font Awesome to your theme.
 
-
 ### Features:
+
 * Uses the Font Awesome CND, so no local styles, fonts or updates to worry with.
 * Font Awesome Shortcode: [myfa name="fa-home" size="fa-2x" class="fa-rotate-90"]
 * Quick access shortcode button for both the Visual & Text Editor.
@@ -31,13 +30,12 @@ An easy and clean way to add Font Awesome to your theme.
 * Delete All Settings Option
 
 
-** For Support & Bugs **
+#### For Support & Bugs
+
 Please [contact us directly](http://technerdia.com/help/) if you need assistance or have found a bug. The WordPress Support forum does not notify us of new support tickets, no idea why, so contact us directly. Or, view on [Github!](https://github.com/tribalNerd/my-font-awesome/) and clone/fork yourself a copy, report a bug or submit a ticket & pull request!
 
 
-
-:: Installation
---------
+## Installation
 
 ### Install through the Wordpress Admin
 
@@ -57,8 +55,7 @@ Please [contact us directly](http://technerdia.com/help/) if you need assistance
 * Click the Activate link to start the plugin.
 
 
-:: Frequently Asked Questions
---------
+## Frequently Asked Questions
 
 = Q) How does the Global Display features work? =
 
@@ -81,18 +78,18 @@ A) The [myfa] shortcode takes 2 attributes.
 A) No! However you can disable the plugin and delete all plugin settings within the admin area of the plugin.
 
 
-:: Changelog
---------
+## Changelog
 
-= 0.1.0 =
+#### 0.1.0
+
 * Beta Release
 
-= 0.0.1 =
+
+#### 0.0.1
+
 * Created: Sept 06, 2016
 
 
-
-:: Screenshots
---------
+## Screenshots
 
 1. [Coming Soon](https://github.com/tribalNerd/my-font-awesome/blob/master/svn/assets/screenshot-1.png)
