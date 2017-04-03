@@ -15,9 +15,9 @@ if ( count( get_included_files() ) == 1 ){ exit(); }
  * @method qString()        Get Query String Item
  * @method validate()       Form Validation
  */
-if( ! class_exists( 'MyfoNtAwesome_Extended' ) )
+if( ! class_exists( 'MyFontAwesome_Extended' ) )
 {
-    class MyfoNtAwesome_Extended
+    class MyFontAwesome_Extended
     {
         // Website URL
         public $base_url;

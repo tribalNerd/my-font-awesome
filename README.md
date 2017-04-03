@@ -8,12 +8,13 @@
 * **License:** GNU GPLv3
 * **License URI:** https://github.com/tribalNerd/my-font-awesome/blob/master/LICENSE
 
-An easy and clean way to add Font Awesome to your theme.
+An easy and clean way to add Font Awesome to your WordPress theme.
 
 
 ## Description
 
-An easy and clean way to add Font Awesome to your theme.
+An easy and clean way to add Font Awesome to your WordPress theme.
+
 
 ### Features:
 
@@ -29,10 +30,9 @@ An easy and clean way to add Font Awesome to your theme.
 * Login Status Display: All Logged In Users, Logged In - Website Only, Logged In - Admin Only  & Logged Out Users
 * Delete All Settings Option
 
+#### For Support, Bugs & Feature Requests
 
-#### For Support & Bugs
-
-Please [contact us directly](http://technerdia.com/help/) if you need assistance or have found a bug. The WordPress Support forum does not notify us of new support tickets, no idea why, so contact us directly. Or, view on [Github!](https://github.com/tribalNerd/my-font-awesome/) and clone/fork yourself a copy, submit an issue or request a feature!
+Please [contact us directly](http://technerdia.com/help/) or [Submit an Issue](https://github.com/tribalNerd/my-font-awesome/issues) if you need assistance, found a bug, or if you would to request a feature!
 
 
 ## Installation

@@ -6,7 +6,7 @@ if ( count( get_included_files() ) == 1 ){ exit(); }
 /**
  * @about Admin Area Display
  * @location my-font-awesome.php
- * @call MyfoNtAwesome_AdminArea::instance();
+ * @call MyFontAwesome_AdminArea::instance();
  * 
  * @method init()       Init Admin Actions
  * @method redirect()   Font Awesome Icons
@@ -16,9 +16,9 @@ if ( count( get_included_files() ) == 1 ){ exit(); }
  * @method tabs()       Load Admin Area Tabs
  * @method instance()   Class Instance
  */
-if ( ! class_exists( 'MyfoNtAwesome_AdminArea' ) )
+if ( ! class_exists( 'MyFontAwesome_AdminArea' ) )
 {
-    class MyfoNtAwesome_AdminArea extends MyfoNtAwesome_Extended
+    class MyFontAwesome_AdminArea extends MyFontAwesome_Extended
     {
         // Holds Instance Object
         protected static $instance = NULL;

@@ -5,16 +5,16 @@ if ( count( get_included_files() ) == 1 ){ exit(); }
 /**
  * @about Process Form Updates
  * @location classes/my-font-awesome.php
- * @call MyfoNtAwesome_Process::instance();
+ * @call MyFontAwesome_Process::instance();
  * 
  * @method init()           Start Admin Bar Manager
  * @method message()        Display Messages To User
  * @method update()         Update Option
  * @method instance()       Create Instance
  */
-if( ! class_exists( 'MyfoNtAwesome_Process' ) )
+if( ! class_exists( 'MyFontAwesome_Process' ) )
 {
-    class MyfoNtAwesome_Process extends MyfoNtAwesome_Extended
+    class MyFontAwesome_Process extends MyFontAwesome_Extended
     {
         // Holds Instance Object
         protected static $instance = NULL;

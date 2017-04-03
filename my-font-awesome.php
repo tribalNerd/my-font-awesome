@@ -18,9 +18,9 @@ if ( count( get_included_files() ) == 1 ){ exit(); }
 /**
  * @about Define Constants
  */
-if( function_exists( 'MyfoNtAwesomeConstants' ) )
+if( function_exists( 'MyFontAwesomeConstants' ) )
 {
-    MyfoNtAwesomeConstants( Array(
+    MyFontAwesomeConstants( Array(
         'MY_FONT_AWESOME_BASE_URL'          => get_bloginfo( 'url' ),
         'MY_FONT_AWESOME_VERSION'           => '0.1.0',
         'MY_FONT_AWESOME_WP_MIN_VERSION'    => '3.8',
@@ -31,7 +31,7 @@ if( function_exists( 'MyfoNtAwesomeConstants' ) )
 
         'MY_FONT_AWESOME_MENU_NAME'         => __( 'My Font Awesome', 'my-font-awesome' ),
         'MY_FONT_AWESOME_PAGE_NAME'         => __( 'My Font Awesome', 'my-font-awesome' ),
-        'MY_FONT_AWESOME_PAGE_DESC'         => __( 'An easy and clean way to add Font Awesome to your theme.', 'my-font-awesome' ),
+        'MY_FONT_AWESOME_PAGE_DESC'         => __( 'An easy and clean way to add Font Awesome to your WordPress theme.', 'my-font-awesome' ),
         'MY_FONT_AWESOME_OPTION_NAME'       => 'myfontawesome_',
         'MY_FONT_AWESOME_PLUGIN_NAME'       => 'my-font-awesome',
 
@@ -44,7 +44,7 @@ if( function_exists( 'MyfoNtAwesomeConstants' ) )
 /**
  * @about Loop Through Constants
  */
-function MyfoNtAwesomeConstants( $constants_array )
+function MyFontAwesomeConstants( $constants_array )
 {
     foreach( $constants_array as $name => $value ) {
         define( $name, $value, true );
@@ -57,8 +57,8 @@ function MyfoNtAwesomeConstants( $constants_array )
  */
 spl_autoload_register( function ( $class )
 {
-    if( strpos( $class, 'MyfoNtAwesome_' ) !== false ) {
-        $class_name = str_replace( 'MyfoNtAwesome_', "", $class );
+    if( strpos( $class, 'MyFontAwesome_' ) !== false ) {
+        $class_name = str_replace( 'MyFontAwesome_', "", $class );
 
         // If the Class Exists, Include the Class
         if( file_exists( MY_FONT_AWESOME_CLASSES .'/class-'. strtolower( $class_name ) .'.php' ) ) {
@@ -91,13 +91,13 @@ if( ! class_exists( 'MY_FONT_AWESOME' ) )
             add_filter( 'plugin_row_meta', array( $this, 'links' ), 10, 2 );
 
             // Load Admin Area
-            MyfoNtAwesome_AdminArea::instance();
+            MyFontAwesome_AdminArea::instance();
 
             // Manage Settings
-            MyfoNtAwesome_Process::instance();
+            MyFontAwesome_Process::instance();
 
             // Display Font Awesome CSS
-            MyfoNtAwesome_Core::instance();
+            MyFontAwesome_Core::instance();
         }
 
 
