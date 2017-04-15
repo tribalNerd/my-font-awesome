@@ -9,9 +9,9 @@ if ( count( get_included_files() ) == 1 ){ exit(); }
  * 
  * @method init()       After WP Object Is Ready
  * @method action()     My Font Awesome Shortcode
- * qtag()               Add Shortcode To Text Editor
- * jquery()             Enqueue For Tinymce
- * register()           Register Tinymce Button
+ * @method qtag()       Add Shortcode To Text Editor
+ * @method jquery()     Enqueue For Tinymce
+ * @method register()   Register Tinymce Button
  * @method action()     Action To Take For Enqueue
  * @method enqueue()    Enqueue Font Awesome
  * @method instance()   Create Instance

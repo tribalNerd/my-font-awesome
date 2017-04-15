@@ -21,6 +21,7 @@ if ( count( get_included_files() ) == 1 ){ exit(); }
 if( function_exists( 'MyFontAwesomeConstants' ) )
 {
     MyFontAwesomeConstants( Array(
+        'MY_FONT_AWESOME'                   => true,
         'MY_FONT_AWESOME_BASE_URL'          => get_bloginfo( 'url' ),
         'MY_FONT_AWESOME_VERSION'           => '0.1.0',
         'MY_FONT_AWESOME_WP_MIN_VERSION'    => '3.8',
